@@ -1,0 +1,4 @@
+cd /home/ec2-user/trading/trading
+aws s3 cp s3://quanttradingyfinance/ /home/ec2-user/trading/trading --recursive
+
+python3 main.py
